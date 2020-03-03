@@ -23,13 +23,15 @@ The search should take the words given on the command prompt and return a list o
 * A word is a match if it's preceded by a blank, then every letter matches and it's followed by a blank, a comma or a dot.
 
 ## Example of use
-`$ java ­jar schibsted-demo.jar /foo/bar`<br />
- `14 files read in directory /foo/bar`<br />
- `search>`<br />
- `search> to be or not to be`<br />
- `filename1 : 100%`<br />
- `filename2 : 95%`<br />
- `search>`<br />
- `search> cats`<br />
- `no matches found`<br />
- `search> :quit`
+```
+$ java ­jar schibsted-demo.jar /foo/bar
+14 files read in directory /foo/bar
+search>
+search> to be or not to be
+filename1 : 100%
+filename2 : 95%
+search>
+search> cats
+no matches found
+search> :quit
+```
